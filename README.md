@@ -1,3 +1,3 @@
 # Amazon landing page with React
 
-Live: [Amazon clone](https://github.com/facebook/create-react-app).
+Live: [Amazon clone]( https://prathu9.github.io/amazon-clone-react/).
