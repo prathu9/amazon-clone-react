@@ -9,6 +9,7 @@ export const SearchBarContainerPS = styled.div`
     justify-content:stretch;
     align-items:stretch;
     align-content:stretch;
+    border-radius:8px;
 
     &:focus-within{
         border:2.8px solid orange;
