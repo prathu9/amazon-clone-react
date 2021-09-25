@@ -17,20 +17,13 @@ export const DeskPageContentPS = styled.div`
 
 export const MobPageContentPS = styled.div`
 
-    .dealOfDay{
-        width:100%;
-        min-width:320px;
-        height:400px;
-        border:1px solid red;
-    }
-
     @media screen and (min-width:640px){
         display:none;
     }
 `;
 
 export const AdBlockPS = styled.div`
-    margin:0 auto 20px;
+    margin:0 auto 10px;
 
     @media screen and (max-width:640px){
         width:100%;

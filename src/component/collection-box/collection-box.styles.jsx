@@ -5,7 +5,7 @@ export const CollectionBoxContainerPS = styled.div`
     max-width:306px;
     background-color:#fff;
     padding:20px;
-    margin-bottom:20px;
+    margin-bottom:15px;
     z-index:100;
 
     @media screen and (max-width:640px){

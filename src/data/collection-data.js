@@ -1,6 +1,7 @@
 import SingleProduct from "../component/single-product/single-product.component";
 import MultiProduct from "../component/multi-product/multi-product.component";
 import ListProduct from "../component/list-product/list-product.component";
+import OptionCarousel from "../component/option-carousel/option-carousel.component";
 
 
 const COLLECTION_DATA = {
@@ -659,6 +660,39 @@ const COLLECTION_DATA = {
             },
         },
         isCustom: false
+    },
+    dealOfTheDay: {
+        component: OptionCarousel,
+        data: {
+            title: "Deals of the day", 
+            productList: [
+                {
+                    imageUrl: "https://images-eu.ssl-images-amazon.com/images/I/31LC-FBgpBL._AC_SY600_.jpg",
+                    label: "Top Offers | pTron, Wecool Mobile Accessories & More",
+                    price: "₹ 129.00 - ₹ 1,999.00",
+                    time: "Ends in 4:08:04"
+                },
+                {
+                    imageUrl: "https://m.media-amazon.com/images/I/71N6npRR-AL._SL1200_.jpg",
+                    label: "Vivo V20 Pro | Extra Rs. 4500 Coupon Discount",
+                    price: "₹ 29,990.00",
+                    time: "Ends in 4:07:30"
+                },
+                {
+                    imageUrl: "https://images-eu.ssl-images-amazon.com/images/I/31lkxF1dMvL._AC_SY600_.jpg",
+                    label: "boAt headphones and speakers",
+                    price: "₹ 349.00 - ₹ 7,999.00",
+                    time: "Ends in 52:06:23"
+                },
+                {
+                    imageUrl: "https://images-eu.ssl-images-amazon.com/images/I/318lBPSqnGS._AC_SY600_.jpg",
+                    label: "Bestselling Headphones From Boult Audio",
+                    price: "₹ 1,299.00 - ₹ 1,499.00",
+                    time: "Ends in 4:05:47"
+                }
+            ]
+        },
+        isCustom: true
     }
 }
 

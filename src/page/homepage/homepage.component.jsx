@@ -18,6 +18,7 @@ const collectionGroup = [
     ["dishWashing", "stationarySupply", "babyToys", "fireStick"],
     ["kitchenWare", "electronics", "effectiveDishWashing", "masks"],
     ["pocketFriendly", "echoDevices", "computerPeripherals", "kindle"],
+    ["dealOfTheDay"],
     ["shoppingTrends", "browsingHistory", "footwear", "everyDayEssential", "parenting", 
     "recommendedDeal", "furniture", "shimmy", "homeKitchen", "topBrands", "homeDining",
     "cookware"],
@@ -75,13 +76,13 @@ const HomePage = () => {
                     <AdImgPS src={`https://m.media-amazon.com/images/I/71tN3vGsTIL.jpg`}
                              alt={"adblock"}/>
                 </AdBlockPS>
-                <div className="dealOfDay"></div>
+                <Collection  collectionData={collectionData(COLLECTION_DATA, collectionGroup[4])}/>
                 <MobProductCarousel productData={greatIndianFestival}/>
-                <Collection collectionData={collectionData(COLLECTION_DATA, collectionGroup[4])}/>
-                <MobProductCarousel productData={budgetFriendly}/>
                 <Collection collectionData={collectionData(COLLECTION_DATA, collectionGroup[5])}/>
-                <MobProductCarousel productData={seasonalProduct}/>
+                <MobProductCarousel productData={budgetFriendly}/>
                 <Collection collectionData={collectionData(COLLECTION_DATA, collectionGroup[6])}/>
+                <MobProductCarousel productData={seasonalProduct}/>
+                <Collection collectionData={collectionData(COLLECTION_DATA, collectionGroup[7])}/>
                 <AdBlockPS>
                     <AdImgPS src={`https://m.media-amazon.com/images/I/61TIS2jbrWL.jpg`}
                              alt={"adblock"}/>

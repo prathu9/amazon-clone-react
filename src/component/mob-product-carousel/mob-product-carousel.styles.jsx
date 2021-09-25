@@ -53,8 +53,9 @@ export const MobProdCarouselPS = styled.div`
         position:absolute;
         left:0;
         background-color:#fff;
-        height:8px;
+        height:10px;
         width:99%;
+        z-index:10;
     }
 `;
 
@@ -67,7 +68,7 @@ export const MobProdCarouselItemContPS = styled.div`
 export const MobProdCarouselItemPS = styled.div`
     width:122px;
     margin:0 12px 6px;
-    height:250px;
+    height:200px;
 `;
 
 export const MobProdCarouselImgPS = styled.img`
