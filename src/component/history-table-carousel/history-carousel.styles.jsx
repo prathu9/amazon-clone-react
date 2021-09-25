@@ -43,7 +43,7 @@ export const HistoryTableCellPS = styled.td`
         width:160px;
     }
 
-    a{
+    span{
         display:inline-block;
         color: #007185;
         text-align:left;

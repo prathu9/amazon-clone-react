@@ -50,7 +50,6 @@ export const OptionPS = styled.div`
             margin:0;
             display:flex;
             justify-content:space-between;
-            border:2px solid blue;
 
             svg{
                 margin-top:15px;
@@ -90,13 +89,29 @@ export const OptionPS = styled.div`
     }
 `;
 
+export const HamburgerMenuIconPS = styled.div`
+    width:48px;
+    height:48px;
+
+    .hamburgerIcon{
+        width:48px;
+        height:48px;
+        padding-left:10px;
+        margin:5px 0 5px 0 !important;
+    }
+
+    @media screen and (min-width:640px){
+        display:none;
+    }
+`;
+
 export const AmazonLogoContainerPS = styled.div`
     position:relative;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin: 1px 5px 0px 6px;
-    padding:5px;
+    margin: 1px 5px 0px 2px;
+    padding:5px 5px 5px 2px;
 
     svg{
         width:6em;
@@ -123,7 +138,6 @@ export const MobSignInPS = styled.div`
     position:relative;
     display:none;
     justify-content:space-between;
-    border:1px solid red;
     font-size:13px;
     color:#fff;
     line-height:80px;
@@ -152,7 +166,7 @@ export const MobSignInPS = styled.div`
     span:nth-child(1):before{
         content:"";
         position:absolute;
-        top:100%;
+        bottom:-10px;
         right:-30px;
         transform:translateY(-25%);
         width:20px;

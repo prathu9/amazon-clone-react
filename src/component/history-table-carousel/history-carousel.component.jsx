@@ -33,7 +33,6 @@ const HistoryCarousel = ({productData}) => {
         }
         updateSize();
         window.addEventListener("resize", updateSize);
-        console.log(startingIndex, tableCellCount, tableRef.current.offsetWidth)
 
         return () => window.removeEventListener("resize", updateSize);
     }, [startingIndex,tableCellCount])
@@ -64,10 +63,10 @@ const HistoryCarousel = ({productData}) => {
                                 
                                 }).map(({imageUrl, description}, id) => (
                                             <HistoryTableCellPS key={id}>
-                                                <img src={imageUrl} />
-                                                <a>
+                                                <img src={imageUrl} alt="product"/>
+                                                <span>
                                                     {description}
-                                            </a>
+                                                </span>
                                             </HistoryTableCellPS>
                                 ))
                             }

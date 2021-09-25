@@ -5,9 +5,7 @@ import { ProductCarouselListPS,
          ProductCarouselVidListPS,
          ProductCarouselVidImgPS,
          ProductCarouselVidCaptionPS,
-         VideoOverlayPS,
-         PlayBtnPS,
-         VideoCaptionPS} from "./product-carousel-list.styles";
+         PlayBtnPS} from "./product-carousel-list.styles";
 
 import playBtnLogo from '../../asset/playBtn.png';
 

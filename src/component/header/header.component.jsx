@@ -11,13 +11,21 @@ import { HeaderContainerPS,
          LogoTextPS,
          MobSignInPS, 
          SubNavPS,
-         SubNavOptionPS} from './header.styles';
+         SubNavOptionPS,
+         HamburgerMenuIconPS} from './header.styles';
 
 const Header = () => {
     return(
         <HeaderContainerPS id="#nav-top">
             <OptionPS>
                 <AmazonLogoContainerPS>
+                    <HamburgerMenuIconPS>
+                        <svg className= "hamburgerIcon" width="48px" height="48px" viewBox="0 0 48 48">
+                            <line x1='5' y1='12' x2='30' y2='12' stroke='#fff' strokeWidth='3'/>
+                            <line x1='5' y1='22' x2='30' y2='22' stroke='#fff' strokeWidth='3'/>
+                            <line x1='5' y1='32' x2='30' y2='32' stroke='#fff' strokeWidth='3'/>
+                        </svg>
+                    </HamburgerMenuIconPS>
                     <AmazonLogoPS/>
                     <LogoTextPS>
                         .in

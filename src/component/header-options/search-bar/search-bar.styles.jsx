@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const SearchBarContainerPS = styled.div`
     width:99%;
     height:45px;
-    border-radius:4px;
     border:2.8px solid #000;
     background-color:#000;
     display:flex;
@@ -46,6 +45,10 @@ export const SearchInputPS = styled.input`
     font-size:14px;
     outline:none;
     border:none;
+
+    @media screen and (max-width:640px){
+        border-radius:8px 0 0 8px;
+    }
 `;
 
 export const SearchIconPS = styled.div`
@@ -54,6 +57,7 @@ export const SearchIconPS = styled.div`
     background-color:#febd69;
     flex-grow:1;
     min-width:45px;
+    border-radius:0 8px 8px 0;
 
     .circle{
         position:absolute;
@@ -79,6 +83,10 @@ export const SearchIconPS = styled.div`
 
     &:hover{
         background-color:orange;
+    }
+
+    @media screen and (max-width:640px){
+        border-radius:0 8px 8px 0;
     }
 `;
 

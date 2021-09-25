@@ -18,7 +18,7 @@ import { OptionCarouselContainerPS,
 
 const OptionCarousel = ({title, productList}) => {
     const [productIndex, setProductIndex] = useState(0);
-console.log(productList);
+
     const handleClick = (index) => {
         setProductIndex(index);
     }
