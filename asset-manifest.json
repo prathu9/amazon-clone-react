@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "/amazon-clone-react/static/css/main.ea4467cf.chunk.css",
-    "main.js": "/amazon-clone-react/static/js/main.dd35b262.chunk.js",
-    "main.js.map": "/amazon-clone-react/static/js/main.dd35b262.chunk.js.map",
-    "runtime-main.js": "/amazon-clone-react/static/js/runtime-main.5d131bfa.js",
-    "runtime-main.js.map": "/amazon-clone-react/static/js/runtime-main.5d131bfa.js.map",
-    "static/js/2.70a6d356.chunk.js": "/amazon-clone-react/static/js/2.70a6d356.chunk.js",
-    "static/js/2.70a6d356.chunk.js.map": "/amazon-clone-react/static/js/2.70a6d356.chunk.js.map",
-    "static/js/3.0e0ce4d9.chunk.js": "/amazon-clone-react/static/js/3.0e0ce4d9.chunk.js",
-    "static/js/3.0e0ce4d9.chunk.js.map": "/amazon-clone-react/static/js/3.0e0ce4d9.chunk.js.map",
+    "main.css": "/amazon-clone-react/static/css/main.705a9f8d.css",
+    "main.js": "/amazon-clone-react/static/js/main.d5b4195c.js",
+    "static/js/787.2d2aed0c.chunk.js": "/amazon-clone-react/static/js/787.2d2aed0c.chunk.js",
+    "static/media/carousel_img1.jpg": "/amazon-clone-react/static/media/carousel_img1.6f60d2428c56e5e71e0a.jpg",
+    "static/media/flag.png": "/amazon-clone-react/static/media/flag.72f37714de662e5aef3c.png",
+    "static/media/navAd.jpg": "/amazon-clone-react/static/media/navAd.b53b0b7ded56fb9b95eb.jpg",
+    "static/media/Amazon_logo.svg": "/amazon-clone-react/static/media/Amazon_logo.bfb2e866b26f1a4e6fc7ed32bb407008.svg",
     "index.html": "/amazon-clone-react/index.html",
-    "static/css/main.ea4467cf.chunk.css.map": "/amazon-clone-react/static/css/main.ea4467cf.chunk.css.map",
-    "static/js/2.70a6d356.chunk.js.LICENSE.txt": "/amazon-clone-react/static/js/2.70a6d356.chunk.js.LICENSE.txt",
-    "static/media/Amazon_logo.bfb2e866.svg": "/amazon-clone-react/static/media/Amazon_logo.bfb2e866.svg",
-    "static/media/carousel_img1.6f60d242.jpg": "/amazon-clone-react/static/media/carousel_img1.6f60d242.jpg",
-    "static/media/flag.72f37714.png": "/amazon-clone-react/static/media/flag.72f37714.png",
-    "static/media/navAd.b53b0b7d.jpg": "/amazon-clone-react/static/media/navAd.b53b0b7d.jpg"
+    "main.705a9f8d.css.map": "/amazon-clone-react/static/css/main.705a9f8d.css.map",
+    "main.d5b4195c.js.map": "/amazon-clone-react/static/js/main.d5b4195c.js.map",
+    "787.2d2aed0c.chunk.js.map": "/amazon-clone-react/static/js/787.2d2aed0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d131bfa.js",
-    "static/js/2.70a6d356.chunk.js",
-    "static/css/main.ea4467cf.chunk.css",
-    "static/js/main.dd35b262.chunk.js"
+    "static/css/main.705a9f8d.css",
+    "static/js/main.d5b4195c.js"
   ]
 }
