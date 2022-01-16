@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SingleProductContainerPS = styled.div`
     position: relative;
-    width:306px;
+    width:280px;
     min-height:400px;
     background-color:#fff;
     padding:20px;
@@ -18,6 +18,12 @@ export const SingleProductContainerPS = styled.div`
 
 export const SingleProductTitlePS = styled.h2`
     font-size:21px;
+    max-height:54.6px; 
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+    text-overflow:ellipsis;
     text-align:left;
     margin:0 0 10px 0;
 `;

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import  {ReactComponent as AmazonLogoImg} from '../../asset/Amazon_logo.svg';
 
 export const HeaderContainerPS = styled.div`
+    position:fixed;
     width:100%;
     max-height: 60px;
     background-color: #000;
@@ -10,6 +11,7 @@ export const HeaderContainerPS = styled.div`
     flex-direction: row;
     overflow:hidden;
     padding:0px 10px 0px 10px;
+    z-index:1000;
 
     @media screen and (max-width:640px){
         flex-direction:column;

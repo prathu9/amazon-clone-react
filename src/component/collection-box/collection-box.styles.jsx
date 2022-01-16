@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const CollectionBoxContainerPS = styled.div`
     position: relative;
+    width:280px;
     max-width:306px;
     background-color:#fff;
     padding:20px;
@@ -21,6 +22,8 @@ export const CollectionBoxTitlePS = styled.h2`
     font-size:21px;
     text-align:left;
     margin:0 0 15px 0;
+    max-height:54.6px; 
+    height:50px;
 
     @media screen and (max-width:640px){
         font-weight:300;
@@ -47,7 +50,7 @@ export const CollectionItemContainerPS = styled.div`
 
 export const CollectionItemImgPS = styled.img`
     display:block;
-    width:126px;
+    width:114px;
     height:116px;
     object-fit:cover;
 
@@ -59,7 +62,7 @@ export const CollectionItemImgPS = styled.img`
 `;
 
 export const CollectionItemLabelPS = styled.div`
-    max-width:126px;
+    max-width:114px;
     font-family: Arial, Helvetica, sans-serif;
     line-height:20px;
     font-size:12px;
