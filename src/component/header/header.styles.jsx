@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import  {ReactComponent as AmazonLogoImg} from '../../asset/Amazon_logo.svg';
 
 export const HeaderContainerPS = styled.div`
-    position:fixed;
     width:100%;
     max-height: 60px;
     background-color: #000;
@@ -14,6 +13,7 @@ export const HeaderContainerPS = styled.div`
     z-index:1000;
 
     @media screen and (max-width:640px){
+        position:initial;
         flex-direction:column;
         min-height:200px;
         padding:0;        
@@ -33,6 +33,10 @@ export const OptionPS = styled.div`
         border: 1px solid #fff;
     }
 
+    &:nth-child(2){
+        margin-left:12px;
+    }
+    
     &:nth-child(3){
         width:48%;
         font-size:14px;
@@ -43,6 +47,14 @@ export const OptionPS = styled.div`
 
     &:nth-child(4){
         padding:0;
+    }
+
+    &:nth-child(7) span:nth-child(2){
+        color:#fff;
+        line-height:60px;
+        font-weight:800;
+        font-size:14px;
+        margin-right:8px;
     }
 
     @media screen and (max-width:640px){
@@ -180,7 +192,15 @@ export const MobSignInPS = styled.div`
     span:nth-child(2){
         width:62px;
         line-height:40px;
-        background-color:orange;
+        //background-color:orange;
+
+        svg{
+            margin:5px;
+
+            .heavy{
+                color:red;
+            }
+        }
     }
 `;
 

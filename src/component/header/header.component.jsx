@@ -4,6 +4,8 @@ import LocationOption from '../header-options/location-option/locationOption.com
 import SignInOption from '../header-options/SignIn-option/signin-option.component';
 import OrderOption from '../header-options/order-option/order-option.component';
 
+import {ReactComponent as CartIcon} from '../../asset/cart-icon.svg';
+
 import { HeaderContainerPS, 
          OptionPS, 
          AmazonLogoContainerPS,
@@ -33,7 +35,9 @@ const Header = () => {
                 </AmazonLogoContainerPS>
                 <MobSignInPS>
                     <span>{`Sign In ›`}</span>
-                    <span></span>
+                    <span>
+                        <CartIcon/>
+                    </span>
                 </MobSignInPS>
             </OptionPS>
             <OptionPS>
@@ -52,6 +56,10 @@ const Header = () => {
                 <OrderOption/>
             </OptionPS>
             <OptionPS>
+                <span>
+                    <CartIcon/>
+                </span>
+                <span>Cart</span>
             </OptionPS>
             <SubNavPS>
                 <SubNavOptionPS>

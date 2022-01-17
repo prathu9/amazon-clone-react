@@ -42,7 +42,7 @@ export const SearchBarContainerPS = styled.div`
 
 export const SearchInputPS = styled.input` 
     flex-grow:8;
-    padding:7px 10px 10px 5px;
+    padding:7px 10px 10px 10px;
     font-size:14px;
     outline:none;
     border:none;
