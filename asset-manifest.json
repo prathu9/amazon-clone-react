@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/amazon-clone-react/static/css/main.705a9f8d.css",
-    "main.js": "/amazon-clone-react/static/js/main.d5b4195c.js",
+    "main.js": "/amazon-clone-react/static/js/main.40bfa765.js",
     "static/js/787.2d2aed0c.chunk.js": "/amazon-clone-react/static/js/787.2d2aed0c.chunk.js",
     "static/media/carousel_img1.jpg": "/amazon-clone-react/static/media/carousel_img1.6f60d2428c56e5e71e0a.jpg",
     "static/media/flag.png": "/amazon-clone-react/static/media/flag.72f37714de662e5aef3c.png",
     "static/media/navAd.jpg": "/amazon-clone-react/static/media/navAd.b53b0b7ded56fb9b95eb.jpg",
+    "static/media/location-icon.png": "/amazon-clone-react/static/media/location-icon.6faf2a0305b43cc95347.png",
     "static/media/Amazon_logo.svg": "/amazon-clone-react/static/media/Amazon_logo.bfb2e866b26f1a4e6fc7ed32bb407008.svg",
     "index.html": "/amazon-clone-react/index.html",
+    "static/media/cart-icon.svg": "/amazon-clone-react/static/media/cart-icon.93fc4c6c961903c9dab8ae3d8fab6645.svg",
     "main.705a9f8d.css.map": "/amazon-clone-react/static/css/main.705a9f8d.css.map",
-    "main.d5b4195c.js.map": "/amazon-clone-react/static/js/main.d5b4195c.js.map",
+    "main.40bfa765.js.map": "/amazon-clone-react/static/js/main.40bfa765.js.map",
     "787.2d2aed0c.chunk.js.map": "/amazon-clone-react/static/js/787.2d2aed0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.705a9f8d.css",
-    "static/js/main.d5b4195c.js"
+    "static/js/main.40bfa765.js"
   ]
 }
