@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amazon-clone-react/static/css/main.705a9f8d.css",
-    "main.js": "/amazon-clone-react/static/js/main.40bfa765.js",
+    "main.js": "/amazon-clone-react/static/js/main.21cd7ca1.js",
     "static/js/787.2d2aed0c.chunk.js": "/amazon-clone-react/static/js/787.2d2aed0c.chunk.js",
     "static/media/carousel_img1.jpg": "/amazon-clone-react/static/media/carousel_img1.6f60d2428c56e5e71e0a.jpg",
     "static/media/flag.png": "/amazon-clone-react/static/media/flag.72f37714de662e5aef3c.png",
@@ -11,11 +11,11 @@
     "index.html": "/amazon-clone-react/index.html",
     "static/media/cart-icon.svg": "/amazon-clone-react/static/media/cart-icon.93fc4c6c961903c9dab8ae3d8fab6645.svg",
     "main.705a9f8d.css.map": "/amazon-clone-react/static/css/main.705a9f8d.css.map",
-    "main.40bfa765.js.map": "/amazon-clone-react/static/js/main.40bfa765.js.map",
+    "main.21cd7ca1.js.map": "/amazon-clone-react/static/js/main.21cd7ca1.js.map",
     "787.2d2aed0c.chunk.js.map": "/amazon-clone-react/static/js/787.2d2aed0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.705a9f8d.css",
-    "static/js/main.40bfa765.js"
+    "static/js/main.21cd7ca1.js"
   ]
 }
