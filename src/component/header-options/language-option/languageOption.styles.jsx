@@ -5,11 +5,10 @@ export const LanguageDropDownPS = styled.div`
     top:45px;
     left:0;
     display:none;
-    background-color:#ff0;
+    background-color:#fff;
     width: 240px;
-    height:100px;   
     padding:0 9px 5px;
-    z-index:100; 
+    z-index:5000; 
     line-height:44px;
 
     &:before{

@@ -15,7 +15,7 @@ export const DropIconPS = styled.div`
         background-color:rgba(0,0,0,0.5);
 
         &:hover{
-            display:none;
+            display:none !important;
         }
     }
 

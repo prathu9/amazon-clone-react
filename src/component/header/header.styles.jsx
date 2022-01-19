@@ -8,7 +8,7 @@ export const HeaderContainerPS = styled.div`
     background-color: #000;
     display: flex;
     flex-direction: row;
-    overflow:hidden;
+    /* overflow:hidden; */
     padding:0px 10px 0px 10px;
     z-index:1000;
 
